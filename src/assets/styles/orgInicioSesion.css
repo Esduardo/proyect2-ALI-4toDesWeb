@@ -1,0 +1,28 @@
+.divInicioSesion{
+    width: 300px;
+    background-color: rgba(255,255,255,.5);
+    padding: 4rem;
+    border-radius: 10px;
+    position: relative;
+    box-shadow: 0px 5px 50px 5px rgba(0, 0, 0, 0.269);
+    transition: 1s;
+}
+.divInicioSesion:hover{
+    margin-left: -5%;
+    opacity: -100%;
+}
+
+
+.login-card-logo{
+    margin-bottom: 2rem;
+    text-align: center;
+    transition: 1s;
+    /* transform:scale(2) ; */
+}
+.login-card-logo:hover{
+    transform:rotate(360deg);
+}
+.login-card-logo-img{
+    width: 60px;
+}
+

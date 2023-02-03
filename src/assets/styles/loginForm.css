@@ -1,0 +1,86 @@
+.login-form{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+.login-form-item{
+    position: relative;
+
+}
+
+.sPan1{
+    width: 8%;
+    position: absolute;
+    opacity: .4;
+    margin-top: 4.5%;
+    margin-left: 5%;
+}
+.sPan2{
+    width: 6%;
+    position: absolute;
+    opacity: .4;
+    margin-top: 3%;
+    margin-left: 3%;
+}
+
+.login-form input[type="email"],
+.login-form input[type="password"]{
+    outline: none;
+    background-color: rgba(156, 156, 156, 0.5);
+    padding: 1rem 3rem;
+    padding-left: cal(1rem * 2.5);
+    border-radius: 10px;
+    width: 67%;
+    color: black;
+}
+.login-form-input-gmail{
+    border: 3px solid transparent;
+}
+.login-form-input-gmail:focus {
+	border: 3px solid #5faaff;
+	outline: none;
+	box-shadow: 3px 0px 30px rgba(163,163,163, 0.4);
+}
+.login-form-input-password{
+    border: 3px solid transparent;
+}
+.login-form-input-password:focus{
+    border: 3px solid #5faaff;
+	outline: none;
+	box-shadow: 3px 0px 30px rgba(163,163,163, 0.4);
+}
+
+
+
+
+.login-form-input-gmail-error {
+	font-size: 12px;
+	margin-bottom: 0;
+	display: none;
+}
+
+
+
+.irRegister{
+    display: flex;
+
+}
+.irRegister p{
+    color:#BE8A62;
+}
+.linkRegister{
+    margin-top: 5.5%;
+    margin-left: 2%;
+}
+
+.btn-iniciar{
+    border: none;
+    background-color: #264d7a;   
+    box-shadow: 3px 0px 30px rgba(0, 0, 0, 0.073);
+}
+.btn-iniciar:hover{
+    transition: .5s;
+    box-shadow: 3px 0px 30px rgba(0, 0, 0, 0.292);
+    background-color: #335d8b;
+    border:none;
+}

@@ -1,0 +1,8 @@
+.register{
+    width: 1535px;
+    height: 755px;
+    background: linear-gradient(to right,#EFE2D8, #BE8A62);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

@@ -1,0 +1,8 @@
+.inicioSesion{
+    width: 1535px;
+    height: 755px;
+    background: linear-gradient(to right, #BE8A62, #EFE2D8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
